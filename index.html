@@ -244,7 +244,7 @@
       <span class="post-meta-item-text">发表于</span>
       
 
-      <time title="创建时间：2021-07-24 19:12:31 / 修改时间：19:13:27" itemprop="dateCreated datePublished" datetime="2021-07-24T19:12:31+08:00">2021-07-24</time>
+      <time title="创建时间：2021-07-24 19:12:31 / 修改时间：19:23:00" itemprop="dateCreated datePublished" datetime="2021-07-24T19:12:31+08:00">2021-07-24</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -266,7 +266,9 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <pre><code></code></pre>
+          <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">yank</span><br><span class="line">nyy	&#x2F;&#x2F; yank n lines</span><br><span class="line"></span><br><span class="line">goto</span><br><span class="line">nG	&#x2F;&#x2F; go to nth line</span><br><span class="line"></span><br><span class="line">delete</span><br><span class="line">ndd	&#x2F;&#x2F; delete n lines</span><br><span class="line">dnw	&#x2F;&#x2F; delete n words</span><br></pre></td></tr></table></figure>
+
+
       
     </div>
 
@@ -318,7 +320,7 @@
       <span class="post-meta-item-text">发表于</span>
       
 
-      <time title="创建时间：2021-07-24 17:35:32 / 修改时间：19:09:04" itemprop="dateCreated datePublished" datetime="2021-07-24T17:35:32+08:00">2021-07-24</time>
+      <time title="创建时间：2021-07-24 17:35:32 / 修改时间：19:19:22" itemprop="dateCreated datePublished" datetime="2021-07-24T17:35:32+08:00">2021-07-24</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -340,9 +342,7 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h1 id="Frequently-used"><a href="#Frequently-used" class="headerlink" title="Frequently-used"></a>Frequently-used</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ctrl + w + w &#x2F;&#x2F; switch window focuse</span><br></pre></td></tr></table></figure>
-
-<h1 id="NerdTree"><a href="#NerdTree" class="headerlink" title="NerdTree"></a>NerdTree</h1><h3 id="配置文件"><a href="#配置文件" class="headerlink" title="配置文件"></a>配置文件</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">autocmd vimenter * NERDTree</span><br><span class="line">map &lt;F3&gt; :NERDTreeMirror&lt;CR&gt;</span><br><span class="line">map &lt;F3&gt; :NERDTreeToggle&lt;CR&gt;</span><br></pre></td></tr></table></figure>
+          <h1 id="NerdTree"><a href="#NerdTree" class="headerlink" title="NerdTree"></a>NerdTree</h1><h3 id="配置文件"><a href="#配置文件" class="headerlink" title="配置文件"></a>配置文件</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">autocmd vimenter * NERDTree</span><br><span class="line">map &lt;F3&gt; :NERDTreeMirror&lt;CR&gt;</span><br><span class="line">map &lt;F3&gt; :NERDTreeToggle&lt;CR&gt;</span><br></pre></td></tr></table></figure>
 
 <ul>
 <li>打开vim自动开启NerdTree</li>
@@ -4301,7 +4301,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">更新于</span>
-        <time title="修改时间：2021-03-01 14:58:11" itemprop="dateModified" datetime="2021-03-01T14:58:11+08:00">2021-03-01</time>
+        <time title="修改时间：2021-07-24 19:31:06" itemprop="dateModified" datetime="2021-07-24T19:31:06+08:00">2021-07-24</time>
       </span>
 
   
@@ -4314,25 +4314,12 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h1 id="修改ssh-config"><a href="#修改ssh-config" class="headerlink" title="修改ssh_config"></a>修改ssh_config</h1><h2 id="法1"><a href="#法1" class="headerlink" title="法1"></a>法1</h2><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo vim /etc/ssh/ssh_config</span><br></pre></td></tr></table></figure>
+          <h1 id="Client"><a href="#Client" class="headerlink" title="Client"></a>Client</h1><p>From client, you can set this config to hold all the connection with servers.</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">vim ~&#x2F;.ssh&#x2F;config</span><br><span class="line">ServerAliveInterval 60</span><br></pre></td></tr></table></figure>
 
-<p>最后添加</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">ClientAliveInterval 60</span><br><span class="line">ClientAliveCountMax 1</span><br></pre></td></tr></table></figure>
+<h1 id="Server"><a href="#Server" class="headerlink" title="Server"></a>Server</h1><p>From server, you can hold all the connection with clients.</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">vim &#x2F;etc&#x2F;ssh&#x2F;sshd_config</span><br><span class="line">ClientAliveInterval 60</span><br></pre></td></tr></table></figure>
 
-<p>重启sshd</p>
-<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl restart sshd</span><br></pre></td></tr></table></figure>
-
-
-
-<h2 id="法2"><a href="#法2" class="headerlink" title="法2"></a>法2</h2><p>最后添加</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">IPQoS&#x3D;throughput</span><br></pre></td></tr></table></figure>
-
-<p>重启sshd</p>
-<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl restart sshd</span><br></pre></td></tr></table></figure>
-
-
-
-<p>好像没用…</p>
 
       
     </div>
